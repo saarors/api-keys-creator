@@ -9,10 +9,17 @@ Copy the `src/utils` and `src/middleware` directories to your project, or instal
 ```powershell
 git clone https://github.com/saarors/api-keys-creator
 ```
+
+```powershell
+cd api-keys-creator
+```
 ```powershell
 python nodeconfig.py
 ```
 
+```powershell
+cd ~
+```
 ```powershell
 rmdir api-keys-creator
 ```
