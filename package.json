@@ -1,0 +1,25 @@
+{
+  "name": "apikeyscreator",
+  "version": "1.0.0",
+  "description": "Real API Keys Creator System with JWT Authentication",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "api-keys",
+    "authentication",
+    "jwt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "hono": "^4.12.21",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
