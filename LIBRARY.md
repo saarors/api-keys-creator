@@ -7,7 +7,7 @@ Use the API Keys Creator as a library in your own Node.js or Bun projects.
 Copy the `src/utils` and `src/middleware` directories to your project, or install from npm (future):
 
 ```bash
-npm install apikeys-creator
+npm install apikeyscreator
 ```
 
 ## Core Modules
