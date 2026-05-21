@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>API Keys Creator — Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <h1>API Keys Creator</h1>
+
+    <section id="auth">
+      <div class="tabs">
+        <button id="show-login" class="active">Login</button>
+        <button id="show-register">Register</button>
+      </div>
+
+      <form id="login-form" class="form">
+        <input id="login-email" placeholder="Email" type="email" required>
+        <input id="login-password" placeholder="Password" type="password" required>
+        <button type="submit">Login</button>
+      </form>
+
+      <form id="register-form" class="form hidden">
+        <input id="reg-email" placeholder="Email" type="email" required>
+        <input id="reg-password" placeholder="Password" type="password" required>
+        <button type="submit">Register</button>
+      </form>
+
+      <p id="message" class="muted"></p>
+    </section>
+
+    <section id="dashboard" class="hidden">
+      <h2>Dashboard</h2>
+      <p>Welcome, <span id="user-email"></span></p>
+      <button id="btn-refresh">Refresh API Keys</button>
+      <button id="btn-logout" class="danger">Logout</button>
+      <ul id="keys-list"></ul>
+    </section>
+  </main>
+
+  <script>
+    // Edit this if your backend runs at a different URL or port
+    const BACKEND_URL = 'http://localhost:3000';
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
