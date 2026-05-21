@@ -1,5 +1,5 @@
 import os
 
-os.system("clear")
+os.system("cls")
 os.system("npm install apikeyscreator")
 os.system("clear")
