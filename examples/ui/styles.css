@@ -1,0 +1,16 @@
+*:focus{outline:none}
+body{font-family:Inter,Segoe UI,Roboto,Arial;margin:0;background:#f4f6fb;display:flex;align-items:center;justify-content:center;height:100vh}
+.card{background:#fff;padding:24px;border-radius:8px;box-shadow:0 6px 18px rgba(20,20,50,0.08);width:360px}
+h1,h2{margin:0 0 12px}
+.tabs{display:flex;margin-bottom:12px}
+.tabs button{flex:1;padding:8px;border:1px solid #e6e9f2;background:#fff;cursor:pointer}
+.tabs button.active{background:#3b82f6;color:#fff;border-color:#3b82f6}
+.form{display:flex;flex-direction:column;gap:8px}
+.form input{padding:10px;border:1px solid #e6e9f2;border-radius:6px}
+button{padding:10px;border-radius:6px;border:0;background:#3b82f6;color:#fff;cursor:pointer}
+button.danger{background:#ef4444}
+.hidden{display:none}
+.muted{color:#6b7280;font-size:13px}
+#keys-list{margin-top:12px;padding-left:18px}
+#keys-list li{margin-bottom:8px}
+@media (max-width:420px){.card{width:92vw}}
